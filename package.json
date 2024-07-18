@@ -1,0 +1,17 @@
+{
+  "name": "will-ui",
+  "version": "1.0.0",
+  "packageManager": "yarn@4.2.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.5.3"
+  }
+}

@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "outDir": "dist",
+      "module": "ESNext",
+      "target": "ES6",
+      "lib": ["dom", "es2015"],
+      "jsx": "react",
+      "declaration": true,
+      "moduleResolution": "node",
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "strict": true,
+      "baseUrl": ".",
+      "paths": {
+        "react": ["../../node_modules/react"],
+        "react-dom": ["../../node_modules/react-dom"],
+        "@types/react": ["../../node_modules/@types/react"],
+        "@types/react-dom": ["../../node_modules/@types/react-dom"]
+      }
+    },
+    "include": ["src"]
+  }
+  
