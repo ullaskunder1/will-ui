@@ -13,3 +13,6 @@
 .pnp.*
 .yarn
 node_modules/
+.npmrc
+package.tgz
+src/

@@ -1,0 +1,7 @@
+src
+node_modules
+.git
+.DS_Store
+.npmrc
+package.tgz
+.npmrc

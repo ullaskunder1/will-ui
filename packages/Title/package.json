@@ -1,5 +1,5 @@
 {
-  "name": "@will-ui/button",
+  "name": "@will-ui/title",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

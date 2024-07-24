@@ -1,10 +1,15 @@
 {
-  "name": "will-ui",
+  "name": "will01",
   "version": "1.0.0",
-  "packageManager": "yarn@4.2.2",
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "build": "yarn workspaces foreach --all --verbose run build",
+    "publish:all": "yarn workspaces foreach --all --no-private npm publish --access public",
+    "publish:title": "npm publish packages/Title --access public",
+    "publish:button": "npm publish packages/button --access public"
+  },
   "dependencies": {
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
